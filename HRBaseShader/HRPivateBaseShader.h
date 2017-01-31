@@ -8,7 +8,7 @@
 //NOT INCLUDE THIS FILE 
 #import "HRBaseShader.h"
 #import "HRShaderOption.h"
-#import "NSObject+HRGetSubclass.h"
+#import <HRSubclasses/NSObject+HRGetSubclass.h>
 
 @interface HRBaseShaderProgramm ()
 
