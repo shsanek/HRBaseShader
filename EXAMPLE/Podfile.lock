@@ -1,0 +1,19 @@
+PODS:
+  - HRBaseShader (0.5):
+    - HRSubclasses
+  - HRSubclasses (0.0.3)
+
+DEPENDENCIES:
+  - HRBaseShader (from `../`)
+
+EXTERNAL SOURCES:
+  HRBaseShader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HRBaseShader: ebef9f2a974733b9387796f71ae7ee6afd829372
+  HRSubclasses: 259d11748cc6e7ac68670184a90d45b6bd0b8686
+
+PODFILE CHECKSUM: c15901fa3761a4e4aeb220a136853d99f2b1d8d5
+
+COCOAPODS: 1.2.0.beta.1

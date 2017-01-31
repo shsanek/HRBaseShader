@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06711082F6EEF41A2BD37885 /* libPods-OpenGLAtestation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B40092FDAE96328535AE1F68 /* libPods-OpenGLAtestation.a */; };
+		E847C62C1E3C73CE001A444C /* HRTextureShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E847C62A1E3C73CE001A444C /* HRTextureShader.fsh */; };
+		E847C62D1E3C73CE001A444C /* HRTextureShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E847C62B1E3C73CE001A444C /* HRTextureShader.vsh */; };
+		E847C6301E3C74FC001A444C /* HRTextureShader.m in Sources */ = {isa = PBXBuildFile; fileRef = E847C62F1E3C74FC001A444C /* HRTextureShader.m */; };
+		E847C6341E3C75C2001A444C /* HRShaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E847C6331E3C75C2001A444C /* HRShaderController.m */; };
+		E867B7D21E3DA3CB0058211D /* HRFireworksModelShader.m in Sources */ = {isa = PBXBuildFile; fileRef = E867B7D11E3DA3CB0058211D /* HRFireworksModelShader.m */; };
+		E867B7D71E3DA6310058211D /* HRFireworksModelShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E867B7D51E3DA6310058211D /* HRFireworksModelShader.fsh */; };
+		E867B7D81E3DA6310058211D /* HRFireworksModelShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E867B7D61E3DA6310058211D /* HRFireworksModelShader.vsh */; };
+		E867B7DB1E3DB0D70058211D /* HRFireworksShaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E867B7DA1E3DB0D70058211D /* HRFireworksShaderController.m */; };
+		E867B7E11E3DB5DE0058211D /* HRFireworksRenderShader.m in Sources */ = {isa = PBXBuildFile; fileRef = E867B7E01E3DB5DE0058211D /* HRFireworksRenderShader.m */; };
+		E867B7E41E3DB6220058211D /* HRFireworksRenderShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E867B7E21E3DB6220058211D /* HRFireworksRenderShader.fsh */; };
+		E867B7E51E3DB6220058211D /* HRFireworksRenderShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E867B7E31E3DB6220058211D /* HRFireworksRenderShader.vsh */; };
+		E88700A61E3FC3300034FAEF /* PhysicalParticalSystem.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E88700A21E3FC3300034FAEF /* PhysicalParticalSystem.fsh */; };
+		E88700A71E3FC3300034FAEF /* PhysicalParticalSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = E88700A41E3FC3300034FAEF /* PhysicalParticalSystem.m */; };
+		E88700A81E3FC3300034FAEF /* PhysicalParticalSystem.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E88700A51E3FC3300034FAEF /* PhysicalParticalSystem.vsh */; };
+		E88700B01E3FD3430034FAEF /* HRShadowModelShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E88700AC1E3FD3430034FAEF /* HRShadowModelShader.fsh */; };
+		E88700B11E3FD3430034FAEF /* HRShadowModelShader.m in Sources */ = {isa = PBXBuildFile; fileRef = E88700AE1E3FD3430034FAEF /* HRShadowModelShader.m */; };
+		E88700B21E3FD3430034FAEF /* HRShadowModelShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E88700AF1E3FD3430034FAEF /* HRShadowModelShader.vsh */; };
+		E88700B71E3FDB500034FAEF /* HRShadowRenderShader.m in Sources */ = {isa = PBXBuildFile; fileRef = E88700B41E3FDB500034FAEF /* HRShadowRenderShader.m */; };
+		E88700B81E3FDB500034FAEF /* HRShadowRenderShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E88700B51E3FDB500034FAEF /* HRShadowRenderShader.fsh */; };
+		E88700B91E3FDB500034FAEF /* HRShadowRenderShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E88700B61E3FDB500034FAEF /* HRShadowRenderShader.vsh */; };
+		E88700BC1E3FE3000034FAEF /* HRShadowShaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E88700BB1E3FE3000034FAEF /* HRShadowShaderController.m */; };
+		E8A1F5521E33BD8300A07C9A /* HRColorShader.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A1F5511E33BD8300A07C9A /* HRColorShader.m */; };
+		E8DB6B641E2B3DF400A2F056 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DB6B631E2B3DF400A2F056 /* main.m */; };
+		E8DB6B671E2B3DF400A2F056 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DB6B661E2B3DF400A2F056 /* AppDelegate.m */; };
+		E8DB6B6A1E2B3DF400A2F056 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DB6B691E2B3DF400A2F056 /* ViewController.m */; };
+		E8DB6B6D1E2B3DF400A2F056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DB6B6B1E2B3DF400A2F056 /* Main.storyboard */; };
+		E8DB6B6F1E2B3DF400A2F056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DB6B6E1E2B3DF400A2F056 /* Assets.xcassets */; };
+		E8DB6B721E2B3DF400A2F056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DB6B701E2B3DF400A2F056 /* LaunchScreen.storyboard */; };
+		E8DB6B7E1E2B446800A2F056 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DB6B7D1E2B446800A2F056 /* OpenGLES.framework */; };
+		E8DB6B831E2B4F2F00A2F056 /* HRColorShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E8DB6B811E2B4F2F00A2F056 /* HRColorShader.vsh */; };
+		E8DB6B841E2B4F2F00A2F056 /* HRColorShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E8DB6B821E2B4F2F00A2F056 /* HRColorShader.fsh */; };
+		E8F59FEC1E3C797E000C0B0E /* HRColorShaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F59FEB1E3C797E000C0B0E /* HRColorShaderController.m */; };
+		E8F59FEF1E3C8099000C0B0E /* HRTextureShaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F59FEE1E3C8099000C0B0E /* HRTextureShaderController.m */; };
+		E8F59FF51E3CA06B000C0B0E /* HRNoiseShader.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F59FF41E3CA06B000C0B0E /* HRNoiseShader.m */; };
+		E8F59FF81E3CA151000C0B0E /* HRNoiseShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E8F59FF61E3CA151000C0B0E /* HRNoiseShader.fsh */; };
+		E8F59FF91E3CA151000C0B0E /* HRNoiseShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E8F59FF71E3CA151000C0B0E /* HRNoiseShader.vsh */; };
+		E8F59FFC1E3CA754000C0B0E /* HRNoiseShaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F59FFB1E3CA754000C0B0E /* HRNoiseShaderController.m */; };
+		E8F5A0001E3CB07E000C0B0E /* ShaderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F59FFF1E3CB07E000C0B0E /* ShaderTableViewController.m */; };
+		E8F5A0031E3CB350000C0B0E /* HRLifeShader.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F5A0021E3CB350000C0B0E /* HRLifeShader.m */; };
+		E8F5A0061E3CB419000C0B0E /* HRLifeShaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F5A0051E3CB419000C0B0E /* HRLifeShaderController.m */; };
+		E8F5A0091E3CB4E3000C0B0E /* HRLifeShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E8F5A0071E3CB4E3000C0B0E /* HRLifeShader.fsh */; };
+		E8F5A00A1E3CB4E3000C0B0E /* HRLifeShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E8F5A0081E3CB4E3000C0B0E /* HRLifeShader.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F94BEB7CC8762F9B0269544 /* Pods-OpenGLAtestation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLAtestation.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGLAtestation/Pods-OpenGLAtestation.release.xcconfig"; sourceTree = "<group>"; };
+		B40092FDAE96328535AE1F68 /* libPods-OpenGLAtestation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLAtestation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46BDE0AC003A904B106ACE0 /* Pods-OpenGLAtestation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLAtestation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGLAtestation/Pods-OpenGLAtestation.debug.xcconfig"; sourceTree = "<group>"; };
+		E847C62A1E3C73CE001A444C /* HRTextureShader.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = HRTextureShader.fsh; sourceTree = "<group>"; };
+		E847C62B1E3C73CE001A444C /* HRTextureShader.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = HRTextureShader.vsh; sourceTree = "<group>"; };
+		E847C62E1E3C74FC001A444C /* HRTextureShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRTextureShader.h; sourceTree = "<group>"; };
+		E847C62F1E3C74FC001A444C /* HRTextureShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRTextureShader.m; sourceTree = "<group>"; };
+		E847C6321E3C75C2001A444C /* HRShaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRShaderController.h; sourceTree = "<group>"; };
+		E847C6331E3C75C2001A444C /* HRShaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRShaderController.m; sourceTree = "<group>"; };
+		E867B7D01E3DA3CB0058211D /* HRFireworksModelShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRFireworksModelShader.h; sourceTree = "<group>"; };
+		E867B7D11E3DA3CB0058211D /* HRFireworksModelShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRFireworksModelShader.m; sourceTree = "<group>"; };
+		E867B7D51E3DA6310058211D /* HRFireworksModelShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HRFireworksModelShader.fsh; sourceTree = "<group>"; };
+		E867B7D61E3DA6310058211D /* HRFireworksModelShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HRFireworksModelShader.vsh; sourceTree = "<group>"; };
+		E867B7D91E3DB0D70058211D /* HRFireworksShaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRFireworksShaderController.h; sourceTree = "<group>"; };
+		E867B7DA1E3DB0D70058211D /* HRFireworksShaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRFireworksShaderController.m; sourceTree = "<group>"; };
+		E867B7DF1E3DB5DE0058211D /* HRFireworksRenderShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRFireworksRenderShader.h; sourceTree = "<group>"; };
+		E867B7E01E3DB5DE0058211D /* HRFireworksRenderShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRFireworksRenderShader.m; sourceTree = "<group>"; };
+		E867B7E21E3DB6220058211D /* HRFireworksRenderShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HRFireworksRenderShader.fsh; sourceTree = "<group>"; };
+		E867B7E31E3DB6220058211D /* HRFireworksRenderShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HRFireworksRenderShader.vsh; sourceTree = "<group>"; };
+		E88700A21E3FC3300034FAEF /* PhysicalParticalSystem.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PhysicalParticalSystem.fsh; sourceTree = "<group>"; };
+		E88700A31E3FC3300034FAEF /* PhysicalParticalSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicalParticalSystem.h; sourceTree = "<group>"; };
+		E88700A41E3FC3300034FAEF /* PhysicalParticalSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicalParticalSystem.m; sourceTree = "<group>"; };
+		E88700A51E3FC3300034FAEF /* PhysicalParticalSystem.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PhysicalParticalSystem.vsh; sourceTree = "<group>"; };
+		E88700AC1E3FD3430034FAEF /* HRShadowModelShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HRShadowModelShader.fsh; sourceTree = "<group>"; };
+		E88700AD1E3FD3430034FAEF /* HRShadowModelShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRShadowModelShader.h; sourceTree = "<group>"; };
+		E88700AE1E3FD3430034FAEF /* HRShadowModelShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRShadowModelShader.m; sourceTree = "<group>"; };
+		E88700AF1E3FD3430034FAEF /* HRShadowModelShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HRShadowModelShader.vsh; sourceTree = "<group>"; };
+		E88700B31E3FDB500034FAEF /* HRShadowRenderShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRShadowRenderShader.h; sourceTree = "<group>"; };
+		E88700B41E3FDB500034FAEF /* HRShadowRenderShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRShadowRenderShader.m; sourceTree = "<group>"; };
+		E88700B51E3FDB500034FAEF /* HRShadowRenderShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HRShadowRenderShader.fsh; sourceTree = "<group>"; };
+		E88700B61E3FDB500034FAEF /* HRShadowRenderShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HRShadowRenderShader.vsh; sourceTree = "<group>"; };
+		E88700BA1E3FE3000034FAEF /* HRShadowShaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRShadowShaderController.h; sourceTree = "<group>"; };
+		E88700BB1E3FE3000034FAEF /* HRShadowShaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRShadowShaderController.m; sourceTree = "<group>"; };
+		E8A1F5501E33BD8300A07C9A /* HRColorShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorShader.h; sourceTree = "<group>"; };
+		E8A1F5511E33BD8300A07C9A /* HRColorShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorShader.m; sourceTree = "<group>"; };
+		E8DB6B5F1E2B3DF400A2F056 /* OpenGLAtestation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLAtestation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DB6B631E2B3DF400A2F056 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8DB6B651E2B3DF400A2F056 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8DB6B661E2B3DF400A2F056 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8DB6B681E2B3DF400A2F056 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8DB6B691E2B3DF400A2F056 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8DB6B6C1E2B3DF400A2F056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8DB6B6E1E2B3DF400A2F056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8DB6B711E2B3DF400A2F056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8DB6B731E2B3DF400A2F056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DB6B7D1E2B446800A2F056 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E8DB6B811E2B4F2F00A2F056 /* HRColorShader.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = HRColorShader.vsh; sourceTree = "<group>"; };
+		E8DB6B821E2B4F2F00A2F056 /* HRColorShader.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = HRColorShader.fsh; sourceTree = "<group>"; };
+		E8F59FEA1E3C797E000C0B0E /* HRColorShaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorShaderController.h; sourceTree = "<group>"; };
+		E8F59FEB1E3C797E000C0B0E /* HRColorShaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorShaderController.m; sourceTree = "<group>"; };
+		E8F59FED1E3C8099000C0B0E /* HRTextureShaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRTextureShaderController.h; sourceTree = "<group>"; };
+		E8F59FEE1E3C8099000C0B0E /* HRTextureShaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRTextureShaderController.m; sourceTree = "<group>"; };
+		E8F59FF31E3CA06B000C0B0E /* HRNoiseShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRNoiseShader.h; sourceTree = "<group>"; };
+		E8F59FF41E3CA06B000C0B0E /* HRNoiseShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRNoiseShader.m; sourceTree = "<group>"; };
+		E8F59FF61E3CA151000C0B0E /* HRNoiseShader.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = HRNoiseShader.fsh; sourceTree = "<group>"; };
+		E8F59FF71E3CA151000C0B0E /* HRNoiseShader.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = HRNoiseShader.vsh; sourceTree = "<group>"; };
+		E8F59FFA1E3CA754000C0B0E /* HRNoiseShaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRNoiseShaderController.h; sourceTree = "<group>"; };
+		E8F59FFB1E3CA754000C0B0E /* HRNoiseShaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRNoiseShaderController.m; sourceTree = "<group>"; };
+		E8F59FFE1E3CB07E000C0B0E /* ShaderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderTableViewController.h; sourceTree = "<group>"; };
+		E8F59FFF1E3CB07E000C0B0E /* ShaderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaderTableViewController.m; sourceTree = "<group>"; };
+		E8F5A0011E3CB350000C0B0E /* HRLifeShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRLifeShader.h; sourceTree = "<group>"; };
+		E8F5A0021E3CB350000C0B0E /* HRLifeShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRLifeShader.m; sourceTree = "<group>"; };
+		E8F5A0041E3CB419000C0B0E /* HRLifeShaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRLifeShaderController.h; sourceTree = "<group>"; };
+		E8F5A0051E3CB419000C0B0E /* HRLifeShaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRLifeShaderController.m; sourceTree = "<group>"; };
+		E8F5A0071E3CB4E3000C0B0E /* HRLifeShader.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = HRLifeShader.fsh; sourceTree = "<group>"; };
+		E8F5A0081E3CB4E3000C0B0E /* HRLifeShader.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = HRLifeShader.vsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8DB6B5C1E2B3DF400A2F056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DB6B7E1E2B446800A2F056 /* OpenGLES.framework in Frameworks */,
+				06711082F6EEF41A2BD37885 /* libPods-OpenGLAtestation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04261B6F130DE022D1A932F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E46BDE0AC003A904B106ACE0 /* Pods-OpenGLAtestation.debug.xcconfig */,
+				6F94BEB7CC8762F9B0269544 /* Pods-OpenGLAtestation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E847C6311E3C7595001A444C /* SHADER_CONTROLL */ = {
+			isa = PBXGroup;
+			children = (
+				E847C6321E3C75C2001A444C /* HRShaderController.h */,
+				E847C6331E3C75C2001A444C /* HRShaderController.m */,
+				E8F59FEA1E3C797E000C0B0E /* HRColorShaderController.h */,
+				E8F59FEB1E3C797E000C0B0E /* HRColorShaderController.m */,
+				E8F59FED1E3C8099000C0B0E /* HRTextureShaderController.h */,
+				E8F59FEE1E3C8099000C0B0E /* HRTextureShaderController.m */,
+				E8F59FFA1E3CA754000C0B0E /* HRNoiseShaderController.h */,
+				E8F59FFB1E3CA754000C0B0E /* HRNoiseShaderController.m */,
+				E8F5A0041E3CB419000C0B0E /* HRLifeShaderController.h */,
+				E8F5A0051E3CB419000C0B0E /* HRLifeShaderController.m */,
+				E867B7D91E3DB0D70058211D /* HRFireworksShaderController.h */,
+				E867B7DA1E3DB0D70058211D /* HRFireworksShaderController.m */,
+				E88700BA1E3FE3000034FAEF /* HRShadowShaderController.h */,
+				E88700BB1E3FE3000034FAEF /* HRShadowShaderController.m */,
+			);
+			name = SHADER_CONTROLL;
+			sourceTree = "<group>";
+		};
+		E867B7CF1E3DA3880058211D /* Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				E867B7D31E3DA40B0058211D /* model */,
+				E867B7D41E3DA4110058211D /* render */,
+			);
+			name = Fireworks;
+			sourceTree = "<group>";
+		};
+		E867B7D31E3DA40B0058211D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E867B7D51E3DA6310058211D /* HRFireworksModelShader.fsh */,
+				E867B7D61E3DA6310058211D /* HRFireworksModelShader.vsh */,
+				E867B7D01E3DA3CB0058211D /* HRFireworksModelShader.h */,
+				E867B7D11E3DA3CB0058211D /* HRFireworksModelShader.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		E867B7D41E3DA4110058211D /* render */ = {
+			isa = PBXGroup;
+			children = (
+				E867B7E21E3DB6220058211D /* HRFireworksRenderShader.fsh */,
+				E867B7E31E3DB6220058211D /* HRFireworksRenderShader.vsh */,
+				E867B7DF1E3DB5DE0058211D /* HRFireworksRenderShader.h */,
+				E867B7E01E3DB5DE0058211D /* HRFireworksRenderShader.m */,
+			);
+			name = render;
+			sourceTree = "<group>";
+		};
+		E88700A11E3FC27E0034FAEF /* PhysicalParticalSystem */ = {
+			isa = PBXGroup;
+			children = (
+				E88700A21E3FC3300034FAEF /* PhysicalParticalSystem.fsh */,
+				E88700A51E3FC3300034FAEF /* PhysicalParticalSystem.vsh */,
+				E88700A31E3FC3300034FAEF /* PhysicalParticalSystem.h */,
+				E88700A41E3FC3300034FAEF /* PhysicalParticalSystem.m */,
+			);
+			name = PhysicalParticalSystem;
+			sourceTree = "<group>";
+		};
+		E88700A91E3FD3070034FAEF /* Shadow */ = {
+			isa = PBXGroup;
+			children = (
+				E88700AA1E3FD3290034FAEF /* model */,
+				E88700AB1E3FD32E0034FAEF /* render */,
+			);
+			name = Shadow;
+			sourceTree = "<group>";
+		};
+		E88700AA1E3FD3290034FAEF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E88700AC1E3FD3430034FAEF /* HRShadowModelShader.fsh */,
+				E88700AF1E3FD3430034FAEF /* HRShadowModelShader.vsh */,
+				E88700AD1E3FD3430034FAEF /* HRShadowModelShader.h */,
+				E88700AE1E3FD3430034FAEF /* HRShadowModelShader.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		E88700AB1E3FD32E0034FAEF /* render */ = {
+			isa = PBXGroup;
+			children = (
+				E88700B51E3FDB500034FAEF /* HRShadowRenderShader.fsh */,
+				E88700B61E3FDB500034FAEF /* HRShadowRenderShader.vsh */,
+				E88700B31E3FDB500034FAEF /* HRShadowRenderShader.h */,
+				E88700B41E3FDB500034FAEF /* HRShadowRenderShader.m */,
+			);
+			name = render;
+			sourceTree = "<group>";
+		};
+		E8DB6B561E2B3DF400A2F056 = {
+			isa = PBXGroup;
+			children = (
+				E8DB6B611E2B3DF400A2F056 /* OpenGLAtestation */,
+				E8DB6B601E2B3DF400A2F056 /* Products */,
+				E8DB6B7C1E2B446800A2F056 /* Frameworks */,
+				04261B6F130DE022D1A932F3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E8DB6B601E2B3DF400A2F056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB6B5F1E2B3DF400A2F056 /* OpenGLAtestation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8DB6B611E2B3DF400A2F056 /* OpenGLAtestation */ = {
+			isa = PBXGroup;
+			children = (
+				E847C6311E3C7595001A444C /* SHADER_CONTROLL */,
+				E8DB6B7F1E2B4E0900A2F056 /* SHADER */,
+				E8DB6B651E2B3DF400A2F056 /* AppDelegate.h */,
+				E8DB6B661E2B3DF400A2F056 /* AppDelegate.m */,
+				E8DB6B681E2B3DF400A2F056 /* ViewController.h */,
+				E8DB6B691E2B3DF400A2F056 /* ViewController.m */,
+				E8F59FFE1E3CB07E000C0B0E /* ShaderTableViewController.h */,
+				E8F59FFF1E3CB07E000C0B0E /* ShaderTableViewController.m */,
+				E8DB6B6B1E2B3DF400A2F056 /* Main.storyboard */,
+				E8DB6B6E1E2B3DF400A2F056 /* Assets.xcassets */,
+				E8DB6B701E2B3DF400A2F056 /* LaunchScreen.storyboard */,
+				E8DB6B731E2B3DF400A2F056 /* Info.plist */,
+				E8DB6B621E2B3DF400A2F056 /* Supporting Files */,
+			);
+			path = OpenGLAtestation;
+			sourceTree = "<group>";
+		};
+		E8DB6B621E2B3DF400A2F056 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB6B631E2B3DF400A2F056 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8DB6B7C1E2B446800A2F056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB6B7D1E2B446800A2F056 /* OpenGLES.framework */,
+				B40092FDAE96328535AE1F68 /* libPods-OpenGLAtestation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8DB6B7F1E2B4E0900A2F056 /* SHADER */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB6B801E2B4F1B00A2F056 /* PROGRAMM */,
+			);
+			name = SHADER;
+			sourceTree = "<group>";
+		};
+		E8DB6B801E2B4F1B00A2F056 /* PROGRAMM */ = {
+			isa = PBXGroup;
+			children = (
+				E88700A91E3FD3070034FAEF /* Shadow */,
+				E88700A11E3FC27E0034FAEF /* PhysicalParticalSystem */,
+				E867B7CF1E3DA3880058211D /* Fireworks */,
+				E8F59FFD1E3CAFD9000C0B0E /* Life */,
+				E8F59FF21E3C9FAB000C0B0E /* Noise */,
+				E8F59FF11E3C9C31000C0B0E /* Color */,
+				E8F59FF01E3C9C21000C0B0E /* Texture */,
+			);
+			name = PROGRAMM;
+			sourceTree = "<group>";
+		};
+		E8F59FF01E3C9C21000C0B0E /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				E847C62A1E3C73CE001A444C /* HRTextureShader.fsh */,
+				E847C62B1E3C73CE001A444C /* HRTextureShader.vsh */,
+				E847C62E1E3C74FC001A444C /* HRTextureShader.h */,
+				E847C62F1E3C74FC001A444C /* HRTextureShader.m */,
+			);
+			name = Texture;
+			sourceTree = "<group>";
+		};
+		E8F59FF11E3C9C31000C0B0E /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB6B811E2B4F2F00A2F056 /* HRColorShader.vsh */,
+				E8DB6B821E2B4F2F00A2F056 /* HRColorShader.fsh */,
+				E8A1F5501E33BD8300A07C9A /* HRColorShader.h */,
+				E8A1F5511E33BD8300A07C9A /* HRColorShader.m */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		E8F59FF21E3C9FAB000C0B0E /* Noise */ = {
+			isa = PBXGroup;
+			children = (
+				E8F59FF61E3CA151000C0B0E /* HRNoiseShader.fsh */,
+				E8F59FF71E3CA151000C0B0E /* HRNoiseShader.vsh */,
+				E8F59FF31E3CA06B000C0B0E /* HRNoiseShader.h */,
+				E8F59FF41E3CA06B000C0B0E /* HRNoiseShader.m */,
+			);
+			name = Noise;
+			sourceTree = "<group>";
+		};
+		E8F59FFD1E3CAFD9000C0B0E /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				E8F5A0071E3CB4E3000C0B0E /* HRLifeShader.fsh */,
+				E8F5A0081E3CB4E3000C0B0E /* HRLifeShader.vsh */,
+				E8F5A0011E3CB350000C0B0E /* HRLifeShader.h */,
+				E8F5A0021E3CB350000C0B0E /* HRLifeShader.m */,
+			);
+			name = Life;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8DB6B5E1E2B3DF400A2F056 /* OpenGLAtestation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DB6B761E2B3DF400A2F056 /* Build configuration list for PBXNativeTarget "OpenGLAtestation" */;
+			buildPhases = (
+				0A0A372E3E31BBE64133DA89 /* [CP] Check Pods Manifest.lock */,
+				E8DB6B5B1E2B3DF400A2F056 /* Sources */,
+				E8DB6B5C1E2B3DF400A2F056 /* Frameworks */,
+				E8DB6B5D1E2B3DF400A2F056 /* Resources */,
+				6F02530D67A27A11EA5584D9 /* [CP] Embed Pods Frameworks */,
+				5CD75429E1289DFAF8AA13D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLAtestation;
+			productName = OpenGLAtestation;
+			productReference = E8DB6B5F1E2B3DF400A2F056 /* OpenGLAtestation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8DB6B571E2B3DF400A2F056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Sibers;
+				TargetAttributes = {
+					E8DB6B5E1E2B3DF400A2F056 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SUAWT97CSE;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = E8DB6B5A1E2B3DF400A2F056 /* Build configuration list for PBXProject "OpenGLAtestation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8DB6B561E2B3DF400A2F056;
+			productRefGroup = E8DB6B601E2B3DF400A2F056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8DB6B5E1E2B3DF400A2F056 /* OpenGLAtestation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8DB6B5D1E2B3DF400A2F056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F5A00A1E3CB4E3000C0B0E /* HRLifeShader.vsh in Resources */,
+				E8DB6B721E2B3DF400A2F056 /* LaunchScreen.storyboard in Resources */,
+				E867B7D81E3DA6310058211D /* HRFireworksModelShader.vsh in Resources */,
+				E8F59FF81E3CA151000C0B0E /* HRNoiseShader.fsh in Resources */,
+				E88700B91E3FDB500034FAEF /* HRShadowRenderShader.vsh in Resources */,
+				E8DB6B6F1E2B3DF400A2F056 /* Assets.xcassets in Resources */,
+				E8DB6B841E2B4F2F00A2F056 /* HRColorShader.fsh in Resources */,
+				E867B7E51E3DB6220058211D /* HRFireworksRenderShader.vsh in Resources */,
+				E88700A61E3FC3300034FAEF /* PhysicalParticalSystem.fsh in Resources */,
+				E8DB6B831E2B4F2F00A2F056 /* HRColorShader.vsh in Resources */,
+				E847C62C1E3C73CE001A444C /* HRTextureShader.fsh in Resources */,
+				E8F5A0091E3CB4E3000C0B0E /* HRLifeShader.fsh in Resources */,
+				E88700B01E3FD3430034FAEF /* HRShadowModelShader.fsh in Resources */,
+				E867B7D71E3DA6310058211D /* HRFireworksModelShader.fsh in Resources */,
+				E867B7E41E3DB6220058211D /* HRFireworksRenderShader.fsh in Resources */,
+				E88700B81E3FDB500034FAEF /* HRShadowRenderShader.fsh in Resources */,
+				E8DB6B6D1E2B3DF400A2F056 /* Main.storyboard in Resources */,
+				E88700A81E3FC3300034FAEF /* PhysicalParticalSystem.vsh in Resources */,
+				E8F59FF91E3CA151000C0B0E /* HRNoiseShader.vsh in Resources */,
+				E88700B21E3FD3430034FAEF /* HRShadowModelShader.vsh in Resources */,
+				E847C62D1E3C73CE001A444C /* HRTextureShader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A0A372E3E31BBE64133DA89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD75429E1289DFAF8AA13D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenGLAtestation/Pods-OpenGLAtestation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F02530D67A27A11EA5584D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenGLAtestation/Pods-OpenGLAtestation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8DB6B5B1E2B3DF400A2F056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F59FEC1E3C797E000C0B0E /* HRColorShaderController.m in Sources */,
+				E8F5A0031E3CB350000C0B0E /* HRLifeShader.m in Sources */,
+				E88700B11E3FD3430034FAEF /* HRShadowModelShader.m in Sources */,
+				E8F5A0001E3CB07E000C0B0E /* ShaderTableViewController.m in Sources */,
+				E8A1F5521E33BD8300A07C9A /* HRColorShader.m in Sources */,
+				E88700B71E3FDB500034FAEF /* HRShadowRenderShader.m in Sources */,
+				E867B7D21E3DA3CB0058211D /* HRFireworksModelShader.m in Sources */,
+				E8F59FFC1E3CA754000C0B0E /* HRNoiseShaderController.m in Sources */,
+				E8DB6B6A1E2B3DF400A2F056 /* ViewController.m in Sources */,
+				E8DB6B671E2B3DF400A2F056 /* AppDelegate.m in Sources */,
+				E88700A71E3FC3300034FAEF /* PhysicalParticalSystem.m in Sources */,
+				E867B7DB1E3DB0D70058211D /* HRFireworksShaderController.m in Sources */,
+				E8F59FF51E3CA06B000C0B0E /* HRNoiseShader.m in Sources */,
+				E847C6301E3C74FC001A444C /* HRTextureShader.m in Sources */,
+				E8F5A0061E3CB419000C0B0E /* HRLifeShaderController.m in Sources */,
+				E867B7E11E3DB5DE0058211D /* HRFireworksRenderShader.m in Sources */,
+				E847C6341E3C75C2001A444C /* HRShaderController.m in Sources */,
+				E8DB6B641E2B3DF400A2F056 /* main.m in Sources */,
+				E88700BC1E3FE3000034FAEF /* HRShadowShaderController.m in Sources */,
+				E8F59FEF1E3C8099000C0B0E /* HRTextureShaderController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8DB6B6B1E2B3DF400A2F056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DB6B6C1E2B3DF400A2F056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8DB6B701E2B3DF400A2F056 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DB6B711E2B3DF400A2F056 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8DB6B741E2B3DF400A2F056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8DB6B751E2B3DF400A2F056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8DB6B771E2B3DF400A2F056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46BDE0AC003A904B106ACE0 /* Pods-OpenGLAtestation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUAWT97CSE;
+				INFOPLIST_FILE = OpenGLAtestation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sibers.OpenGLAtestation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9ddb654d-1a31-4227-99f6-de7dad492fc2";
+				PROVISIONING_PROFILE_SPECIFIER = Hirerussians_Generic_Development;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8DB6B781E2B3DF400A2F056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F94BEB7CC8762F9B0269544 /* Pods-OpenGLAtestation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = OpenGLAtestation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sibers.OpenGLAtestation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8DB6B5A1E2B3DF400A2F056 /* Build configuration list for PBXProject "OpenGLAtestation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DB6B741E2B3DF400A2F056 /* Debug */,
+				E8DB6B751E2B3DF400A2F056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8DB6B761E2B3DF400A2F056 /* Build configuration list for PBXNativeTarget "OpenGLAtestation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DB6B771E2B3DF400A2F056 /* Debug */,
+				E8DB6B781E2B3DF400A2F056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8DB6B571E2B3DF400A2F056 /* Project object */;
+}

@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3F65E660D673C87438755DB122C16D /* HRBaseShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8058BBA0BFDAD6340B6DFC2EF794CA /* HRBaseShader.m */; };
+		11F57FD54A3862E1DF26EE34C5CE8945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1ABE69B2285C83E704C24E9848CFC2FA /* HRBaseShader.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE181A170F1B0064B28C3CE83B20A70 /* HRBaseShader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2554C0A371034C2A3B94A37FB80C7639 /* NSObject+HRGetSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EF497F7A2C55C76EC0E52AD0CE6731 /* NSObject+HRGetSubclass.m */; };
+		25FD6918869B068ADF87F834467423BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		311F8AE8A6E2D0AC229CF8152721BB7D /* HRShaderOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 240460B39C761552A29CA04943FC526C /* HRShaderOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3771717F5BB9B80C7855C97FE185C539 /* HRShaderType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD7691010856D64BE275ED39D0145FF /* HRShaderType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43C5912260C4BBEE58FF5A0804B642BB /* HRPivateBaseShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 700D1F348541491C68353FFBA15519A5 /* HRPivateBaseShader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		589F174F5F7CB62CF1602A9FA936137F /* HRGLColorTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FEFABD87876FCDAF9F786F737655AB /* HRGLColorTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F843228092B5421B182A42D4CB6D12 /* HRBaseShader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A70D6B0C9D4D860798BC4C9D452736C2 /* HRBaseShader-dummy.m */; };
+		61A0C66BA2A8DE4089D4EFE301A5206D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6A04F0776744216E812EFE237B5B5646 /* HRShaderArrayTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E758E2F84AD673F82FE19FBE82EE72 /* HRShaderArrayTypes.m */; };
+		6D984942DA5030D24F60EF9150B53696 /* HRShaderOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 876BA2667A5570C93E8635901B4BCD50 /* HRShaderOption.m */; };
+		8520730A7470D4400FDEFFBD9EE8D806 /* HRShaderArrayTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 51280EFCF30F471E34E831F5CC1011A1 /* HRShaderArrayTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EACC5A923880FF78808AE29CC33D637 /* Pods-OpenGLAtestation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DDFF2B3AE82E6BD85140F74AECE3E4 /* Pods-OpenGLAtestation-dummy.m */; };
+		B58DE5D4F3085ADB2C2BA900D1EABCCF /* HRGLTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = B716FF9F34993C6FBFCE8470445611EA /* HRGLTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC101422D0AF2A27968635B4EA50F4E6 /* HRGLColorTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8968F663FA9E38FE647B10D31DA49E /* HRGLColorTexture.m */; };
+		DAA8072F085C8AB8ED375267AF5329AE /* HRSubclasses-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BF144C0256723BB163217E73E8FB68 /* HRSubclasses-dummy.m */; };
+		E5E1DE5A8E54BD56EBCDCBCD6F8B96D7 /* NSObject+HRGetSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = C6306EC1CB35F5D521ECA52767BE1C41 /* NSObject+HRGetSubclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35078F5E147EBA6759CF9AD5A1971DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613800586DD6C5BD204FEA139D477E9C;
+			remoteInfo = HRSubclasses;
+		};
+		62A5210C16AEF57763C60168D55F5AA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613800586DD6C5BD204FEA139D477E9C;
+			remoteInfo = HRSubclasses;
+		};
+		AE3C6845E7BA572E25B56E0FBEA589AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7F021B9032A6B2DDDBCF0DD3F7A622;
+			remoteInfo = HRBaseShader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D815F1A6E8F967C91769BF05EE22C3 /* HRSubclasses-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRSubclasses-prefix.pch"; sourceTree = "<group>"; };
+		0D7C5625D3DAEA98420EC4ED4664748C /* Pods-OpenGLAtestation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLAtestation.debug.xcconfig"; sourceTree = "<group>"; };
+		14E758E2F84AD673F82FE19FBE82EE72 /* HRShaderArrayTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRShaderArrayTypes.m; sourceTree = "<group>"; };
+		18FEFABD87876FCDAF9F786F737655AB /* HRGLColorTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRGLColorTexture.h; sourceTree = "<group>"; };
+		20868E136AB4E047F86EFD72F3A21D78 /* HRBaseShader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRBaseShader.xcconfig; sourceTree = "<group>"; };
+		240460B39C761552A29CA04943FC526C /* HRShaderOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRShaderOption.h; sourceTree = "<group>"; };
+		2B57AC5CC2D7A1387ACC5522C052959D /* libHRBaseShader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHRBaseShader.a; path = libHRBaseShader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8968F663FA9E38FE647B10D31DA49E /* HRGLColorTexture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRGLColorTexture.m; sourceTree = "<group>"; };
+		3603AC47D5EE5ED5A6448BA4FEC9DA64 /* libPods-OpenGLAtestation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OpenGLAtestation.a"; path = "libPods-OpenGLAtestation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4866C326AB044F3968754A159B3A5962 /* libHRSubclasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHRSubclasses.a; path = libHRSubclasses.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		51280EFCF30F471E34E831F5CC1011A1 /* HRShaderArrayTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRShaderArrayTypes.h; sourceTree = "<group>"; };
+		61E116A83332867E060FD266E096C7A7 /* Pods-OpenGLAtestation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenGLAtestation-frameworks.sh"; sourceTree = "<group>"; };
+		65D55D650390B5A10C321C11AD66AA77 /* Pods-OpenGLAtestation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenGLAtestation-acknowledgements.plist"; sourceTree = "<group>"; };
+		700D1F348541491C68353FFBA15519A5 /* HRPivateBaseShader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRPivateBaseShader.h; sourceTree = "<group>"; };
+		876BA2667A5570C93E8635901B4BCD50 /* HRShaderOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRShaderOption.m; sourceTree = "<group>"; };
+		8A7ED10DEFA623D6B95AE24E24A78F01 /* Pods-OpenGLAtestation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenGLAtestation.release.xcconfig"; sourceTree = "<group>"; };
+		8BA23103A574E95F62A5F5100BBF45D6 /* HRSubclasses.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRSubclasses.xcconfig; sourceTree = "<group>"; };
+		90DDFF2B3AE82E6BD85140F74AECE3E4 /* Pods-OpenGLAtestation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenGLAtestation-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C837332C7946B33712514F51C13BDA0 /* HRBaseShader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRBaseShader-prefix.pch"; sourceTree = "<group>"; };
+		9D8058BBA0BFDAD6340B6DFC2EF794CA /* HRBaseShader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRBaseShader.m; sourceTree = "<group>"; };
+		9FD7691010856D64BE275ED39D0145FF /* HRShaderType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRShaderType.h; sourceTree = "<group>"; };
+		A70D6B0C9D4D860798BC4C9D452736C2 /* HRBaseShader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HRBaseShader-dummy.m"; sourceTree = "<group>"; };
+		A8EF497F7A2C55C76EC0E52AD0CE6731 /* NSObject+HRGetSubclass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HRGetSubclass.m"; path = "HRSubclasses/NSObject+HRGetSubclass.m"; sourceTree = "<group>"; };
+		B3BF144C0256723BB163217E73E8FB68 /* HRSubclasses-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HRSubclasses-dummy.m"; sourceTree = "<group>"; };
+		B4E7770025869B498FA9CA97B7EC01B3 /* Pods-OpenGLAtestation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenGLAtestation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B716FF9F34993C6FBFCE8470445611EA /* HRGLTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRGLTypes.h; sourceTree = "<group>"; };
+		C6306EC1CB35F5D521ECA52767BE1C41 /* NSObject+HRGetSubclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+HRGetSubclass.h"; path = "HRSubclasses/NSObject+HRGetSubclass.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D924F178097D535C8AA37AC4DFAF71A3 /* Pods-OpenGLAtestation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenGLAtestation-resources.sh"; sourceTree = "<group>"; };
+		FCE181A170F1B0064B28C3CE83B20A70 /* HRBaseShader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRBaseShader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F9DE161926D33A1736497C25CD24762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F57FD54A3862E1DF26EE34C5CE8945 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6649019FA6649846C0BB5570E5F05E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A0C66BA2A8DE4089D4EFE301A5206D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC15A5766D4B880F26AA6CCA8604BB7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FD6918869B068ADF87F834467423BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273170ED6D87D5400F987CD6219C5905 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA23103A574E95F62A5F5100BBF45D6 /* HRSubclasses.xcconfig */,
+				B3BF144C0256723BB163217E73E8FB68 /* HRSubclasses-dummy.m */,
+				00D815F1A6E8F967C91769BF05EE22C3 /* HRSubclasses-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HRSubclasses";
+			sourceTree = "<group>";
+		};
+		4272C5E98D1132D641CC62A17CB9CDFE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D53F70B06E99DB2E76F09171899EA268 /* Pods-OpenGLAtestation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4DBFBF5AE109023326C718F20528F26C /* HRBaseShader */ = {
+			isa = PBXGroup;
+			children = (
+				FCE181A170F1B0064B28C3CE83B20A70 /* HRBaseShader.h */,
+				9D8058BBA0BFDAD6340B6DFC2EF794CA /* HRBaseShader.m */,
+				18FEFABD87876FCDAF9F786F737655AB /* HRGLColorTexture.h */,
+				2F8968F663FA9E38FE647B10D31DA49E /* HRGLColorTexture.m */,
+				B716FF9F34993C6FBFCE8470445611EA /* HRGLTypes.h */,
+				700D1F348541491C68353FFBA15519A5 /* HRPivateBaseShader.h */,
+				51280EFCF30F471E34E831F5CC1011A1 /* HRShaderArrayTypes.h */,
+				14E758E2F84AD673F82FE19FBE82EE72 /* HRShaderArrayTypes.m */,
+				240460B39C761552A29CA04943FC526C /* HRShaderOption.h */,
+				876BA2667A5570C93E8635901B4BCD50 /* HRShaderOption.m */,
+				9FD7691010856D64BE275ED39D0145FF /* HRShaderType.h */,
+			);
+			name = HRBaseShader;
+			path = HRBaseShader;
+			sourceTree = "<group>";
+		};
+		64648FF819680974F6296712665F1ACA /* HRSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				C6306EC1CB35F5D521ECA52767BE1C41 /* NSObject+HRGetSubclass.h */,
+				A8EF497F7A2C55C76EC0E52AD0CE6731 /* NSObject+HRGetSubclass.m */,
+				273170ED6D87D5400F987CD6219C5905 /* Support Files */,
+			);
+			name = HRSubclasses;
+			path = HRSubclasses;
+			sourceTree = "<group>";
+		};
+		72E0988B069DA66256AFB4448FCBB4DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B57AC5CC2D7A1387ACC5522C052959D /* libHRBaseShader.a */,
+				4866C326AB044F3968754A159B3A5962 /* libHRSubclasses.a */,
+				3603AC47D5EE5ED5A6448BA4FEC9DA64 /* libPods-OpenGLAtestation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		776389DBF37BBA7E72C7CA437E04580D /* HRBaseShader */ = {
+			isa = PBXGroup;
+			children = (
+				4DBFBF5AE109023326C718F20528F26C /* HRBaseShader */,
+				B9B2F1E91EDF4872DDB6FC29055763D7 /* Support Files */,
+			);
+			name = HRBaseShader;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				86C5D110CC398628B8B85751F908296C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F0C1E776E11B5125B1F4B6DB0CD2108E /* Pods */,
+				72E0988B069DA66256AFB4448FCBB4DC /* Products */,
+				4272C5E98D1132D641CC62A17CB9CDFE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86C5D110CC398628B8B85751F908296C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				776389DBF37BBA7E72C7CA437E04580D /* HRBaseShader */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9B2F1E91EDF4872DDB6FC29055763D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20868E136AB4E047F86EFD72F3A21D78 /* HRBaseShader.xcconfig */,
+				A70D6B0C9D4D860798BC4C9D452736C2 /* HRBaseShader-dummy.m */,
+				9C837332C7946B33712514F51C13BDA0 /* HRBaseShader-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "EXAMPLE/Pods/Target Support Files/HRBaseShader";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D53F70B06E99DB2E76F09171899EA268 /* Pods-OpenGLAtestation */ = {
+			isa = PBXGroup;
+			children = (
+				B4E7770025869B498FA9CA97B7EC01B3 /* Pods-OpenGLAtestation-acknowledgements.markdown */,
+				65D55D650390B5A10C321C11AD66AA77 /* Pods-OpenGLAtestation-acknowledgements.plist */,
+				90DDFF2B3AE82E6BD85140F74AECE3E4 /* Pods-OpenGLAtestation-dummy.m */,
+				61E116A83332867E060FD266E096C7A7 /* Pods-OpenGLAtestation-frameworks.sh */,
+				D924F178097D535C8AA37AC4DFAF71A3 /* Pods-OpenGLAtestation-resources.sh */,
+				0D7C5625D3DAEA98420EC4ED4664748C /* Pods-OpenGLAtestation.debug.xcconfig */,
+				8A7ED10DEFA623D6B95AE24E24A78F01 /* Pods-OpenGLAtestation.release.xcconfig */,
+			);
+			name = "Pods-OpenGLAtestation";
+			path = "Target Support Files/Pods-OpenGLAtestation";
+			sourceTree = "<group>";
+		};
+		F0C1E776E11B5125B1F4B6DB0CD2108E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64648FF819680974F6296712665F1ACA /* HRSubclasses */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44CD53A16EAF8FFFDB42DD33150B2AD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABE69B2285C83E704C24E9848CFC2FA /* HRBaseShader.h in Headers */,
+				589F174F5F7CB62CF1602A9FA936137F /* HRGLColorTexture.h in Headers */,
+				B58DE5D4F3085ADB2C2BA900D1EABCCF /* HRGLTypes.h in Headers */,
+				43C5912260C4BBEE58FF5A0804B642BB /* HRPivateBaseShader.h in Headers */,
+				8520730A7470D4400FDEFFBD9EE8D806 /* HRShaderArrayTypes.h in Headers */,
+				311F8AE8A6E2D0AC229CF8152721BB7D /* HRShaderOption.h in Headers */,
+				3771717F5BB9B80C7855C97FE185C539 /* HRShaderType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C05351A31DC6B854795CF2F6764C8CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E1DE5A8E54BD56EBCDCBCD6F8B96D7 /* NSObject+HRGetSubclass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		613800586DD6C5BD204FEA139D477E9C /* HRSubclasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4ECA02190A6D0BEDCB4E7D4F63909DE /* Build configuration list for PBXNativeTarget "HRSubclasses" */;
+			buildPhases = (
+				C83A134CB6DCC67CE7DC819D4EB56C34 /* Sources */,
+				A6649019FA6649846C0BB5570E5F05E0 /* Frameworks */,
+				7C05351A31DC6B854795CF2F6764C8CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRSubclasses;
+			productName = HRSubclasses;
+			productReference = 4866C326AB044F3968754A159B3A5962 /* libHRSubclasses.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		837B5053C7C4FC2CFD38C125946E2D3A /* Pods-OpenGLAtestation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAF6A4528E4F80735A2FD535C3C1587 /* Build configuration list for PBXNativeTarget "Pods-OpenGLAtestation" */;
+			buildPhases = (
+				281715EA7AEE3F15BC1E28E0081AF26C /* Sources */,
+				FC15A5766D4B880F26AA6CCA8604BB7C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7004E600CA0B0EE3D26B1C6C0AE582E6 /* PBXTargetDependency */,
+				968254914183FBCF93C10582DF5DA3D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenGLAtestation";
+			productName = "Pods-OpenGLAtestation";
+			productReference = 3603AC47D5EE5ED5A6448BA4FEC9DA64 /* libPods-OpenGLAtestation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA7F021B9032A6B2DDDBCF0DD3F7A622 /* HRBaseShader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04BDA5EAC32596E419BAFA85EDE7A26 /* Build configuration list for PBXNativeTarget "HRBaseShader" */;
+			buildPhases = (
+				A3F5FDFC34B8FE25DABF1F1EF711DD47 /* Sources */,
+				9F9DE161926D33A1736497C25CD24762 /* Frameworks */,
+				44CD53A16EAF8FFFDB42DD33150B2AD2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E945FA34D15E853CC2DE4E831C27BAF /* PBXTargetDependency */,
+			);
+			name = HRBaseShader;
+			productName = HRBaseShader;
+			productReference = 2B57AC5CC2D7A1387ACC5522C052959D /* libHRBaseShader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 72E0988B069DA66256AFB4448FCBB4DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7F021B9032A6B2DDDBCF0DD3F7A622 /* HRBaseShader */,
+				613800586DD6C5BD204FEA139D477E9C /* HRSubclasses */,
+				837B5053C7C4FC2CFD38C125946E2D3A /* Pods-OpenGLAtestation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281715EA7AEE3F15BC1E28E0081AF26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EACC5A923880FF78808AE29CC33D637 /* Pods-OpenGLAtestation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F5FDFC34B8FE25DABF1F1EF711DD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F843228092B5421B182A42D4CB6D12 /* HRBaseShader-dummy.m in Sources */,
+				0C3F65E660D673C87438755DB122C16D /* HRBaseShader.m in Sources */,
+				CC101422D0AF2A27968635B4EA50F4E6 /* HRGLColorTexture.m in Sources */,
+				6A04F0776744216E812EFE237B5B5646 /* HRShaderArrayTypes.m in Sources */,
+				6D984942DA5030D24F60EF9150B53696 /* HRShaderOption.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83A134CB6DCC67CE7DC819D4EB56C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA8072F085C8AB8ED375267AF5329AE /* HRSubclasses-dummy.m in Sources */,
+				2554C0A371034C2A3B94A37FB80C7639 /* NSObject+HRGetSubclass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E945FA34D15E853CC2DE4E831C27BAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HRSubclasses;
+			target = 613800586DD6C5BD204FEA139D477E9C /* HRSubclasses */;
+			targetProxy = 35078F5E147EBA6759CF9AD5A1971DE4 /* PBXContainerItemProxy */;
+		};
+		7004E600CA0B0EE3D26B1C6C0AE582E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HRBaseShader;
+			target = FA7F021B9032A6B2DDDBCF0DD3F7A622 /* HRBaseShader */;
+			targetProxy = AE3C6845E7BA572E25B56E0FBEA589AA /* PBXContainerItemProxy */;
+		};
+		968254914183FBCF93C10582DF5DA3D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HRSubclasses;
+			target = 613800586DD6C5BD204FEA139D477E9C /* HRSubclasses */;
+			targetProxy = 62A5210C16AEF57763C60168D55F5AA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0661EC57FD5C459B545CE7E6B8AABEBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA23103A574E95F62A5F5100BBF45D6 /* HRSubclasses.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRSubclasses/HRSubclasses-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		173FC8997417259DA5BB4354B70BB6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7ED10DEFA623D6B95AE24E24A78F01 /* Pods-OpenGLAtestation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4C69A5FA814A047651D4B82DC765C56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA23103A574E95F62A5F5100BBF45D6 /* HRSubclasses.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRSubclasses/HRSubclasses-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		954E25525067D8CC97B28351C8C8AAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D7C5625D3DAEA98420EC4ED4664748C /* Pods-OpenGLAtestation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC567A745F04F5727F213AA57985989A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20868E136AB4E047F86EFD72F3A21D78 /* HRBaseShader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRBaseShader/HRBaseShader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE3F9D3F77661436C1C9633542AABB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20868E136AB4E047F86EFD72F3A21D78 /* HRBaseShader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRBaseShader/HRBaseShader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EAF6A4528E4F80735A2FD535C3C1587 /* Build configuration list for PBXNativeTarget "Pods-OpenGLAtestation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954E25525067D8CC97B28351C8C8AAE2 /* Debug */,
+				173FC8997417259DA5BB4354B70BB6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04BDA5EAC32596E419BAFA85EDE7A26 /* Build configuration list for PBXNativeTarget "HRBaseShader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC567A745F04F5727F213AA57985989A /* Debug */,
+				BE3F9D3F77661436C1C9633542AABB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4ECA02190A6D0BEDCB4E7D4F63909DE /* Build configuration list for PBXNativeTarget "HRSubclasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C69A5FA814A047651D4B82DC765C56C /* Debug */,
+				0661EC57FD5C459B545CE7E6B8AABEBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
